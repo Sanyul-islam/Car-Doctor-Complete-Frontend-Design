@@ -189,7 +189,7 @@ cursor: pointer;
     background: #F3F3F3;
     border: 1px solid #F3F3F3;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 .btn-sm-secondary{
     width: 60px;
@@ -197,7 +197,7 @@ cursor: pointer;
     background: #FF3811;
     border: 1px solid #FF3811;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 .btn-sm-tertiary{
     width: 60px;
@@ -206,10 +206,18 @@ cursor: pointer;
     background-color: transparent;
     border: 1px solid #FFFFFF33;
     border-radius: 50%;
-
+    cursor: pointer;
 }
 .section-btn{
     margin-top: 50px;
+}
+.section-name{
+        margin: 0;
+        padding: 0;
+        font-weight: 700px;
+        font-size: 20px;
+        color: #FF3811;
+    
 }
 
 /* navbar */
@@ -387,6 +395,10 @@ gap: 25px;
     width: auto;
     height: auto;
     object-fit: cover;
+    transition: filter 0.3s ease;
+}
+.clock {
+    filter: brightness(30%);
 }
 .card-sm{
     width: 170px;
@@ -394,17 +406,28 @@ gap: 25px;
     border: 1px solid #E8E8E8;
     border-radius: 10px;
     display: flex;
-    padding: 20px;
+    padding: 10px;
     gap: 10px;
-    align-items: stretch;
+    /* align-items: stretch; */
     /* margin: 0; */
     /* padding: 30px; */
     flex-wrap: wrap;
     /* overflow: hidden; */
+    transition: all 0.3s ease;
 }
-.card-sm-active{
-    padding-top: 35px;
+#core-features .card-sm:hover{
+    padding-top: 15px;
     background-color: #FF3811;
+    color: #FFFFFF;
+}
+#core-features .card-sm:hover img{
+    filter: brightness(0) invert(1);
+}
+#core-features .card-sm:hover h3{
+    color: #FFFFFF;
+}
+.sm-card-heading{
+    font-size: 18px;
 }
 
 /* testimonial */
@@ -423,6 +446,9 @@ flex-direction: column;
 gap: 20px;
 padding: 40px;
 border: 1px solid #F3F3F3;
+}
+.review-heading{
+    font-size: 25px;
 }
 .quote{
     position: absolute;
