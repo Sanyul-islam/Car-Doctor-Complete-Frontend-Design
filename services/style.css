@@ -297,6 +297,9 @@ aside {
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+#hero .banner-btn {
+    left: 28%;
+  }  
 }
 @media screen and (min-width: 769px) and (max-width: 986px) {
   /*hero  */
