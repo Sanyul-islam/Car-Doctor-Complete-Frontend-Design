@@ -21,27 +21,27 @@ h1 {
   padding: 0;
   color: #ffff;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 h2 {
   margin: 0;
   padding: 0;
   color: #151515;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 2.81rem;
 }
 h3 {
   margin: 0;
   padding: 0;
   font-weight: 700px;
-  font-size: 25px;
+  font-size: 1.56rem;
   color: #444444;
 }
 h4 {
   margin: 0;
   padding: 0;
   font-weight: 700px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ff3811;
 }
 h5 {
@@ -49,29 +49,29 @@ h5 {
   padding: 0;
   color: #444444;
   font-weight: 700px;
-  font-size: 25px;
+  font-size: 1.56rem;
 }
 .heading-primary {
   margin: 0;
   padding: 0;
   color: #151515;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 .heading-secondary {
   margin: 0;
   padding: 0;
   color: #ffff;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 3.75rem;
 }
 p {
   margin: 0;
   padding: 0;
   color: #737373;
   font-weight: 400;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.1rem;
+  line-height: 1.9rem;
 }
 .text-center {
   text-align: center;
@@ -81,7 +81,7 @@ p {
   padding: 0;
   color: #737373;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.12rem;
   line-height: 30px;
 }
 .text-white {
@@ -89,7 +89,7 @@ p {
   padding: 0;
   color: #ffffff;
   font-weight: 400;
-  font-size: 28px;
+  font-size: 1.75rem;
 }
 img {
   width: 100%;
@@ -145,7 +145,7 @@ section {
   height: 56px;
   padding: 10px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.12rem;
   color: #ff3811;
   background-color: #ffff;
   border: 1px solid #ff3811;
@@ -157,7 +157,7 @@ section {
   height: 56px;
   padding: 10px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.12rem;
   color: #ffff;
   background-color: #ff3811;
   border: 1px solid #ff3811;
@@ -169,7 +169,7 @@ section {
   height: 56px;
   padding: 10px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.12rem;
   color: #ffff;
   background-color: transparent;
   border: 1px solid #ffff;
@@ -212,7 +212,7 @@ section {
   margin: 0;
   padding: 0;
   font-weight: 700px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #ff3811;
 }
 
@@ -220,7 +220,7 @@ section {
 .nav-container {
   justify-content: space-between;
 }
-.logo {
+.nav-logo {
   width: auto;
   height: auto;
 }
@@ -232,7 +232,7 @@ section {
 .nav-links a {
   color: #444444;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 .right-menu {
   display: flex;
@@ -323,7 +323,7 @@ section {
   padding: 0;
   color: #ffffff;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .info {
   width: auto;
@@ -365,7 +365,7 @@ section {
 }
 .gray-text {
   font-weight: 600px;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #737373;
 }
 .slider-left {
@@ -424,7 +424,7 @@ section {
   color: #ffffff;
 }
 .sm-card-heading {
-  font-size: 18px;
+  font-size: 1.12rem;
 }
 
 /* testimonial */
@@ -445,7 +445,7 @@ section {
   border: 1px solid #f3f3f3;
 }
 .review-heading {
-  font-size: 25px;
+  font-size: 1.56rem;
 }
 .quote {
   position: absolute;
@@ -498,27 +498,27 @@ footer {
     padding: 0;
     color: #ffff;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
   }
   h2 {
     margin: 0;
     padding: 0;
     color: #151515;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.5rem;
   }
   h3 {
     margin: 0;
     padding: 0;
     font-weight: 700px;
-    font-size: 18px;
+    font-size: 1.12rem;
     color: #444444;
   }
   h4 {
     margin: 0;
     padding: 0;
     font-weight: 700px;
-    font-size: 25px;
+    font-size: 1.56rem;
     color: #ff3811;
   }
   h5 {
@@ -526,28 +526,28 @@ footer {
     padding: 0;
     color: #444444;
     font-weight: 700px;
-    font-size: 25px;
+    font-size: 1.56rem;
   }
   .heading-primary {
     margin: 0;
     padding: 0;
     color: #151515;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .heading-secondary {
     margin: 0;
     padding: 0;
     color: #ffff;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   p {
     margin: 0;
     padding: 0;
     color: #737373;
     font-weight: 400;
-    font-size: 21px;
+    font-size: 1.25rem;
     line-height: 25px;
   }
   .text-center {
@@ -558,7 +558,7 @@ footer {
     padding: 0;
     color: #737373;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     line-height: 30px;
   }
   .text-white {
@@ -566,7 +566,7 @@ footer {
     padding: 0;
     color: #ffffff;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .container {
     margin: 0px;
@@ -706,20 +706,20 @@ footer {
     padding: 0;
     color: #ffff;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
   }
   h2 {
     margin: 0;
     padding: 0;
     color: #151515;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2.81rem;
   }
   h3 {
     margin: 0;
     padding: 0;
     font-weight: 700px;
-    font-size: 18px;
+    font-size: 1.12rem;
     color: #444444;
   }
   h4 {
@@ -734,28 +734,28 @@ footer {
     padding: 0;
     color: #444444;
     font-weight: 700px;
-    font-size: 25px;
+    font-size: 1.56rem;
   }
   .heading-primary {
     margin: 0;
     padding: 0;
     color: #151515;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   .heading-secondary {
     margin: 0;
     padding: 0;
     color: #ffff;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
   }
   p {
     margin: 0;
     padding: 0;
     color: #737373;
     font-weight: 400;
-    font-size: 23px;
+    font-size: 1.43rem;
     line-height: 30px;
   }
   .text-center {
@@ -766,7 +766,7 @@ footer {
     padding: 0;
     color: #737373;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.12rem;
     line-height: 30px;
   }
   .text-white {
@@ -774,7 +774,7 @@ footer {
     padding: 0;
     color: #ffffff;
     font-weight: 400;
-    font-size: 28px;
+    font-size: 1.75rem;
   }
   .container {
     margin: 0px;
@@ -945,20 +945,20 @@ footer {
     padding: 0;
     color: #ffff;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
   }
   h2 {
     margin: 0;
     padding: 0;
     color: #151515;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 1.87rem;
   }
   h3 {
     margin: 0;
     padding: 0;
     font-weight: 700px;
-    font-size: 25px;
+    font-size: 1.56rem;
     color: #444444;
   }
   h4 {
@@ -973,28 +973,28 @@ footer {
     padding: 0;
     color: #444444;
     font-weight: 700px;
-    font-size: 25px;
+    font-size: 1.25rem;
   }
   .heading-primary {
     margin: 0;
     padding: 0;
     color: #151515;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
   }
   .heading-secondary {
     margin: 0;
     padding: 0;
     color: #ffff;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 3.75rem;
   }
   p {
     margin: 0;
     padding: 0;
     color: #737373;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 0.81rem;
     line-height: 21px;
   }
   section {
@@ -1004,7 +1004,7 @@ footer {
     margin: 50px 60px;
   }
   .text-white {
-    font-size: 23px;
+    font-size: 1.43rem;
   }
   .quote {
     position: absolute;
@@ -1026,7 +1026,7 @@ footer {
     gap: 30px;
   }
   #office-info p {
-    font-size: 15px;
+    font-size: 0.95rem;
   }
   /* core feature */
   #core-features .container {
