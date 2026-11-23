@@ -118,6 +118,7 @@ section {
 .grid-col-2 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 .grid-col-3 {
   display: grid;
@@ -620,6 +621,7 @@ footer {
   .grid-col-2 {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
   }
   .img-section {
     height: auto;
@@ -821,6 +823,7 @@ footer {
   .grid-col-2 {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 10px;
   }
   .img-section {
     height: auto;
@@ -909,6 +912,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     place-items: center;
+    gap: 10px;
   }
   .text-section {
     gap: 30px;
