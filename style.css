@@ -257,6 +257,7 @@ section {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  border-radius: 10px;
 }
 .arrow-btn {
   display: flex;

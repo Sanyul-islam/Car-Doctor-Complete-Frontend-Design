@@ -10,6 +10,7 @@ textarea{
  padding: 15px 25px;
  border-radius: 10px;
  border: 1px solid #FFFFFF;
+ resize: none;
 }
 button {
     background-color:#FF3811;

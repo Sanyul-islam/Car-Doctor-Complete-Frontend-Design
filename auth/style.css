@@ -1,12 +1,12 @@
 
 /* left side */
 .left-image{
-    width: 460px;
+    width: 100%;
     height: 500px;
     margin: 100px 0px;
 background-image: url(./assets/auth-img.png);
 background-repeat: no-repeat;
-place-items: center;
+background-position: center;
 }
 
 /* Right side */
@@ -46,6 +46,7 @@ form {
     flex-direction: column;
     padding: 75px;
     border: 1px solid #D0D0D0;
+    border-radius: 10px;
     gap: 20px;
 }
 .form-container{
@@ -58,4 +59,10 @@ form {
 .bottom-item img{
  width: auto;
  height: auto;
+}
+
+@media screen and (min-width: 769px) and (max-width: 986px) {
+.grid-col-2 {
+    place-items: normal;
+    }
 }

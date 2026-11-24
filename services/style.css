@@ -15,6 +15,7 @@ aside {
   padding: 40px;
   width: 100%;
   gap: 20px;
+  border-radius: 10px;
 }
 .side-list {
   display: flex;
@@ -117,6 +118,7 @@ aside {
   background-size: cover;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 .side-card-1 h2 {
   font-size: 1.12rem;
@@ -159,6 +161,7 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  border-radius: 10px;
 }
 
 .banner-btn {

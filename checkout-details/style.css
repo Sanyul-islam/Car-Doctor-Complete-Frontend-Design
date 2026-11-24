@@ -1,0 +1,94 @@
+img{
+    width: auto;
+    height: fit-content;
+}
+.card-details-banner{
+  position: relative;
+  width: auto;
+  height: 300px;
+  padding: 100px;
+  background: #444444;
+  background-image:
+    linear-gradient(#151515, transparent), url(../checkout-details/assets/card-details-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.order-details-banner{
+  position: relative;
+  width: auto;
+  height: 300px;
+  padding: 100px;
+  background: #444444;
+  background-image:
+    linear-gradient(#151515, transparent), url(../checkout-details/assets/card-details-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+.card-items{
+    display: flex;
+    flex-direction: column;
+}
+#cart-details .items-center{
+    flex-direction: row;
+}
+#direction .items-center{
+    flex-direction: row;
+}
+.grid-col-4{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+.card-btn-primary{
+    background-color: #FF3811;
+    color: #FFFFFF;
+    width: 100%;
+    height: 48px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 15px 10px;
+    border: 1px solid #FF3811;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.card-btn-secondary{
+    background-color: #FFFFFF;
+    color: #29B170;
+    width: 100%;
+    height: 48px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    padding: 15px 10px;
+    border: 1px solid #29B170;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottom-direction{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+.grid-col-4{
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+.card-btn-primary{
+    width: 100%;
+}
+}
