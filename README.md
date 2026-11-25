@@ -11,7 +11,7 @@ Car Doctor is an all-in-one car service platform designed to make car maintenanc
 - [Home](https://car-doctor-lemon.vercel.app/)
 - [Services](https://car-doctor-lemon.vercel.app/services/index.html)
 - [Service](https://car-doctor-lemon.vercel.app/service/index.html)
-- [Sign Up](https://car-doctor-lemon.vercel.app/auth/sing-up/index.html)
+- [Sign Up](https://car-doctor-lemon.vercel.app/auth/sign-up/index.html)
 - [Checkout](https://car-doctor-lemon.vercel.app/checkout/index.html)
 - [Checkout Details](https://car-doctor-lemon.vercel.app/checkout-details/card-details/index.html)
 - [Manage Orders](https://car-doctor-lemon.vercel.app/checkout-details/manage-all-orders/index.html)
